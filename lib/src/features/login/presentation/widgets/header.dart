@@ -15,7 +15,7 @@ class _HeaderState extends State<Header> {
 
   double get _imageSize => _screenSize.shortestSide * (1 / 3);
 
-  double get _minSpace => _screenSize.longestSide * 0.02;
+  double get _minSpace => _screenSize.longestSide * 0.015;
 
   @override
   void didChangeDependencies() {
